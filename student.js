@@ -1,5 +1,3 @@
-module.exports.Student = Student;
-
 class Student{
 
     constructor(name, isLate, isOnTime, isAbsent){
@@ -12,3 +10,5 @@ class Student{
         this.isAbsent = true;
     };
 };
+
+module.exports = Student;

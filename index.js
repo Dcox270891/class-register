@@ -12,14 +12,6 @@ const mathsLesson = new Lesson(teacher, [
     student3,
 ]);
 
-console.log(teacher);
-console.log(student1);
-console.log(student2);
-console.log(student3);
-console.log(mathsLesson);
-console.log(mathsLesson.students);
-
-
 mathsLesson.markOnTime([
     student1,
 ]);

@@ -1,5 +1,3 @@
-module.exports.Teacher = Teacher;
-
 class Teacher{
 
     constructor(subject, name){
@@ -13,3 +11,5 @@ class Teacher{
         };
     };
 };
+
+module.exports = Teacher;

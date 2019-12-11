@@ -1,5 +1,3 @@
-module.exports.Lesson = Lesson;
-
 class Lesson {
     
     constructor(teacher, students){
@@ -41,3 +39,5 @@ class Lesson {
         });
     };
 };
+
+module.exports = Lesson;
